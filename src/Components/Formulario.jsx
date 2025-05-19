@@ -1,8 +1,9 @@
 import React from 'react'
 import Movies from '../Movies'
 const Formulario = () => {
-  
+
   return (
+    
     <div className='w-screen h-screen flex flex-col justify-center items-center' >
        <form className="space-y-6" onSubmit={Movies}>
           <div>
