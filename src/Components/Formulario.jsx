@@ -1,5 +1,6 @@
 import React from 'react'
 import Movies from '../Movies'
+
 const Formulario = () => {
 
   return (
@@ -14,7 +15,7 @@ const Formulario = () => {
           </div>
 
           <div>
-            
+
             <label className="block text-sm font-medium text-gray-700 mb-1">
               
             </label>
