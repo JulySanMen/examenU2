@@ -4,7 +4,7 @@ import { useEffect } from "react";
 const useMovies = (key, initialValue) => {
   const [movies, setMovies] = React.useState(() => {
     const guardado = localStorage.getItem(key);
-    return guardado ? JSON.parse(guardado) : initialValue
+    return guardado ? JSON.parse(guardado) : initialValue;
   });
 
   useEffect(() => {
