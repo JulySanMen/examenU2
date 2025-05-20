@@ -23,7 +23,10 @@ const useMovies = (key, initialValue) => {
       )
     );
   };
-  return { movies, crearMovies, editarMovies};
+  const eliminarMovies = (id) => {
+    setMovies((prevMovies) => prevMovies.filter((movie) => movie.id !== id));
+  };
+  return { movies, crearMovies, editarMovies, eliminarMovies};
 };
 
 export default useMovies;
