@@ -24,7 +24,7 @@ const useMovies = (key, initialValue) => {
     );
   };
   const eliminarMovies = (id) => {
-    setMovies((prevMovies) => prevMovies.filter((movie) => movie.id !== id));
+    setMovies((prevMovies) => prevMovies.filter((movie) => movie.id));
   };
   return { movies, crearMovies, editarMovies, eliminarMovies};
 };
