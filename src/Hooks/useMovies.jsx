@@ -23,7 +23,6 @@ const useMovies = (key, initialValue) => {
       )
     );
   };
-
   return { movies, crearMovies, editarMovies};
 };
 
