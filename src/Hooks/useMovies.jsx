@@ -16,7 +16,6 @@ const useMovies = (key, initialValue) => {
     setMovies((prevMovies) => [...prevMovies, nuevaPelicula]);
   };
   
-
   const editarMovies = (id, nuevosDatos) => {
     setMovies((prevMovies) =>
       prevMovies.map((movie) =>
