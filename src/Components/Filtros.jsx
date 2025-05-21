@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Filtros = ({onFilter}) => {
   const [genero,setGenero] = useState('');
