@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Filtros = () => {
+const Filtros = ({onFilter}) => {
+  const [genero,setGenero] = useState('');
   return (
     <div>Filtros</div>
-    
+
   )
 }
 
