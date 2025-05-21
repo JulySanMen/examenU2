@@ -7,6 +7,7 @@ const Filtros = ({onFilter}) => {
     setGenero(e.target.value);
     onFilter(e.target.value);
   };
+  
   return (
     <div>
       <label htmlFor="genero">Filtrar por género:</label>
