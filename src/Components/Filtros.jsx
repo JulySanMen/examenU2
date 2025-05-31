@@ -16,7 +16,7 @@ const Filtros = ({onFilter}) => {
         <option value="Acción">Acción</option>
         <option value="Comedia">Comedia</option>
         <option value="Drama">Drama</option>
-        
+        <option value="Terror">Terror</option>
         <option value="Ciencia Ficción">Ciencia Ficción</option>
       </select>
     </div>
