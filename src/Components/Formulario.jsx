@@ -29,7 +29,7 @@ const Formulario = () => {
             
             </label>
             <input
-              placeholder="genero"
+              placeholder="o"
               className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-black focus:ring-black outline-none shadow-sm transition"
             />
           </div>
