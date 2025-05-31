@@ -4,7 +4,6 @@ import { useEffect } from "react";
 const useMovies = (key, initialValue) => {
   const [movies, setMovies] = React.useState(() => {
     const guardado = localStorage.getItem(key);
-    return guardado ? JSON.parse(guardado) : initialValue;
   });
 
   useEffect(() => {
@@ -26,7 +25,7 @@ const useMovies = (key, initialValue) => {
   const eliminarMovies = (id) => {
     setMovies((prevMovies) => prevMovies.filter((movie) => movie.id !== id));
   };
-  
+
   return { movies, crearMovies, editarMovies, eliminarMovies};
 };
 
